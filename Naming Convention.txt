@@ -1,0 +1,14 @@
+Naming Convention :    Category (initials) _ ModelName _ Number
+
+Categories :
+
+Main Landscape 		ML
+Main/Modular Track 	MT
+Environment Props 	EP
+Building Props 		BP
+Vehicles 		V
+Modular Buildings	MB
+Modular Pipes		MP
+Special Effects 	SE
+Buildings		B
+Racing Vehicles		RV
