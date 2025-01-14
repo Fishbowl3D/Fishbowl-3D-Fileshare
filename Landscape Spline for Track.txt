@@ -1,0 +1,20 @@
+https://dev.epicgames.com/documentation/en-us/unreal-engine/landscape-splines-in-unreal-engine
+
+If the track segment wants to be used with a spline there are multiple solutions.
+
+For example - A spline Blueprint could be made with its own characteristics such as clamping the rotation of control points to prevent non uniform geometry...
+
+... however, a useful solution is to use the spline tool within Landscape Mode.
+
+
+In Landscape Mode - select the Manage Tab and then the Splines option (should be the utmost right tool under Manage Tab)
+
+Once this is selected you can add control points using Ctrl-LMB. (spline points can be joined using this same method but on occasion this can twist geometry, however with enough control points - the offending point can be deleted and the issue should resolve.)
+
+Once you have the desired spline length/shape - you can add a mesh.
+
+Select the desired segments (not control points) (or select all segments in the tool settings if desired) Then in the details panel there is a drop down for Landscape Spline Meshes which should at present show 0 Array element.  Add an element using the + and then drag and drop in the desired mesh.
+
+Pressing key R when selecting a control point or segment seems to nicely reset the tangents for a smooth flowing spline.  It should ordinarily bring up the scale (will have to manually click in top right of viewport).  The scale option now allows for the tangents to be manipulated to adjust curves where needed.
+
+If you wish to match the landscape to the shape of the spline then there is an option in the Spline tool settings to deform landscape to splines.  This can be done on all or only selected segments.
