@@ -1,0 +1,7 @@
+Please Note...
+
+Several FBX models are sets/packs of models rather than individuals.
+
+Unreal will import the separate models.
+
+This may at first feel counterintuitive but sets and packs allow for each separate modular piece to be imported in one go - and the naming convention still allowed for further variations if needed/planned.

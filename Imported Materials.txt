@@ -1,0 +1,16 @@
+Please Note...
+
+Models that have been imported with their embedded material information:
+
+Unreal does not seem to like importing the Metal data.
+
+Also - Unreal plugs the Roughness maps into the metal.
+
+Associated Metal Maps will be in the .fbm folders.
+
+Roughness needs plugging into the correct node and the associated metal map importing and plugging in.
+
+
+Unless different materials want to be applied of course.
+
+(also - unreal seems to ramp up the metal in comparison to Blender)
