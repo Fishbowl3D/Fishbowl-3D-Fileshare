@@ -14,3 +14,9 @@ Roughness needs plugging into the correct node and the associated metal map impo
 Unless different materials want to be applied of course.
 
 (also - unreal seems to ramp up the metal in comparison to Blender)
+
+
+
+Further note on importing:
+
+Seemingly there are times when Unreal selects a default material from the destination import folder.  Unreal seems most happy importing embedded material files across when destination is an empty folder.
